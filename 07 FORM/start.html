@@ -14,7 +14,107 @@
 </head>
 
 <body>
-
+	<h1>REGISTRAZIONE</h1>
+<form>
+	<label for="mail">
+		<span>Mail: </span>
+		<input type="email" id="mail" name="mail">
+	</label>
+	<label for="password">
+		<span>Password: </span>
+		<input type="password" id="password" name="password">
+	</label>
+	<label for="name">
+		<span>Nome: </span>
+		<input type="text" id="name" name="name">
+	</label>
+	<label for="surname">
+		<span>Cognome: </span>
+		<input type="text" id="surname" name="surname">
+	</label>
+	<label for="date">
+		<span>Data di nascita: </span>
+		<input type="date" id="date" name="date">
+	</label>
+	<label for="number">
+		<span>Numero di telefono: </span>
+		<input type="tel" id="number" name="number">
+	</label>
+<!-- 	<fieldset>
+		<legend>Piano di abbonamento</legend>
+		<ul>
+			<li>
+				<label for="Piano_free">
+				<input type="radio" id="Piano_free" name="Piano_free" value="Piano_free">
+				Piano_free
+			</label>
+			</li>
+			<li>
+				<label for="Piano_basic">
+				<input type="radio" id="Piano_basic" name="Piano_basic" value="Piano_basic">
+				Piano_basic
+			</label>
+			</li>
+			<li>
+				<label for="Piano_advanced">
+				<input type="radio" id="Piano_advanced" name="Piano_advanced" value="Piano_advanced">
+				Piano_advanced
+			</label>
+			</li>
+			<li>
+				<label for="Piano_premium">
+				<input type="radio" id="Piano_premium" name="Piano_premium" value="Piano_premium">
+				Piano_premium
+			</label>
+			</li>
+		</ul>
+	</fieldset> -->
+	<section>
+		<label for="Piano_abbonamento">
+			<span>Abbonamenti</span>
+		</label>
+		<select id="Piano_abbonamento" name="Piano_abbonamento">
+			<optgroup label="Free">
+				<option value="Gratuito">Gratuito</option>
+			</optgroup>
+			<optgroup label="Piani-avanzati">
+				<option value="Basic">Base 15$</option>
+				<option value="Advanced">Avanzato 30$</option>
+				<option value="Premium">Premium 45$</option>
+			</optgroup>
+		</select>
+	</section>
+	<label for="Vantaggi_PRO">
+		<span>Vantaggi PRO</span>
+		<input type="checkbox" id="Vantaggi_PRO" name="vantaggi_PRO" value="Vantaggi_PRO">
+	</label>
+	<h2>Pagamento</h2>
+	<label for="Numero_carta">
+		<span>Numero di carta: </span>
+		<input type="text" id="Numero_carta" name="Numero_carta">
+	</label>
+	<label for="CVC">
+		<span>CVC: </span>
+		<input type="text" id="CVC" name="CVC">
+	</label>
+	<label for="Scadenza">
+		<span>data di scadenza: </span>
+		<input type="Scadenza" id="Scadenza" name="Scadenza">
+	</label>
+	<h3>Indirizzo di fatturazione</h3>
+	<label for="Indirizzo_1">
+		<span>Indirizzo: </span>
+		<input type="Indirizzo_1" id="Indirizzo_1" name="Indirizzo_1">
+	</label>
+	<label for="Civico">
+		<span>Civico: </span>
+		<input type="Civico" id="Civico" name="Civico">
+	</label>
+	<label for="CAP">
+		<span>CAP: </span>
+		<input type="CAP" id="CAP" name="CAP">
+	</label>
+	</form>
 </body>
 
 </html>
